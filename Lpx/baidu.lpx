@@ -2,9 +2,9 @@
 #!desc = 移除百度搜索移动端网页的广告信息流
 #!tag = 去广告
 #!icon = https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Baidu.png
-#!date = 2025-05-13 15:17:08
+#!date = 2026-05-25 15:17:08
 [Rewrite]
-# 百度搜索 //m.baidu.com www.baidu.com
+# 百度搜索 //m.baidu.com baike.baidu.com
 ^https?:\/\/(m|baike)\.baidu\.com header-replace user-agent Mozilla/5.0\x20(iPhone;\x20CPU\x20iPhone\x20OS\x2018_7\x20like\x20Mac\x20OS\x20X)\x20AppleWebKit/605.1.15\x20(KHTML,\x20like\x20Gecko)\x20Mobile/15E148\x20SearchCraft/5.12.1.11\x20(Baidu;\x20P2\x2026.5)
 [Mitm]
 hostname = m.baidu.com, baike.baidu.com

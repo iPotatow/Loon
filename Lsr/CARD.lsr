@@ -2,6 +2,8 @@
 DOMAIN-SUFFIX,hsbc.com.hk
 # 汇立银行
 DOMAIN-SUFFIX,welab.bank
+# 蚂蚁银行
+DOMAIN-SUFFIX,antbank.hk
 # 众安银行
 DOMAIN-SUFFIX,za.group
 # CSL
